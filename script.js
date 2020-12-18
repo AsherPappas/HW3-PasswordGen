@@ -5,14 +5,15 @@ var confirmCharacter;
 var confirmUppercase;
 var confirmLowercase;
 var choices;
+
 // Password variable values: 
 
 // Alphabetical characters
 // Numeric characters
 // Special characters 
 alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-character = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
-number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+character = ["!", "#", "$", "%", "&",, "(", ")", "*", "+", , "-", "/", " < ", "=", " > ", " ? ", "@", "[", "]", " ^ ", "_"];
+number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 space = [];
 
 // converts letters to uppercase 
@@ -54,7 +55,7 @@ function writePassword() {
 
     }
     // Determine choices
-        // Else if for 1 positive option
+    // Else if for 1 positive option
         else if (confirmCharacter) {
             choices = character;
         }
@@ -105,4 +106,13 @@ function writePassword() {
  else if (confirmUppercase) {
     choices = space.concat(alpha2);
     };
-};
+
+    var password = [];
+
+// Random selection for variables: 
+for (var i = 0; i < enter; i++) {
+    var pickChoices = choices[Math.floor(Math.random() * choices.length)];
+    password.push(pickChoices);
+    };
+
+}
