@@ -17,13 +17,13 @@ Once all prompts are answered, the user will be presented with a password matchi
 Event listener will determine the password output with function to populate the value into the test area.
 
 This project includes the following features:
+
 A generate button
 This will send the user a series of prompts and confirms
 After user data is collected, a random password will be generated using Javascript.
-
 A Text area
 This text area will display the users password once it is generated
-
+![Screenshot of PasswordGen](user/pictures/passwordgen.png "End Result")
 Acceptance criteria for this project:
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
