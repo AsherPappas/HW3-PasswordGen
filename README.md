@@ -23,7 +23,7 @@ This will send the user a series of prompts and confirms
 After user data is collected, a random password will be generated using Javascript.
 A Text area
 This text area will display the users password once it is generated
-![Screenshot of PasswordGen](user/pictures/passwordgen.png "End Result")
+![Screenshot of PasswordGen](users/Asher/pictures/passwordgen.png "End Result")
 Acceptance criteria for this project:
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
