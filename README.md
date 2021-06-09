@@ -1,5 +1,5 @@
 # HW3-PasswordGen
-
+Live site https://asherpappas.github.io/HW3-PasswordGen/
 This project was designed as a homework assignment for University of Utah's coding bootcamp for web development.
 
 I used HTML, CSS, and Javascript documents create a random password generator. It allows you to randomly generate a password between 8-128 characters with or without special characters, numbers, uppercase letters, and lowercase letters.
